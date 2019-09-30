@@ -1,17 +1,554 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
-		<meta charset=utf-8>
 
-		<meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+        <title>Eventr - One Page Event Template</title>
 
-		<link rel=apple-touch-icon href=touch-icon.png>
-		<link rel="shortcut icon" href=favicon.ico>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Eventr - One Page Event Template">
+        <meta name="author" content="themecube">
 
-		<title>Site da Lilian</title>
+        <!-- viewport settings -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+        <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+        <link rel="stylesheet" href="css/helper.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/font.css">
+        <link rel="stylesheet" href="css/salvattore.css">
+        <link rel="stylesheet" href="css/jquery.countdown.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
+        <link rel="stylesheet" href="css/owl.transitions.css">
+        <link rel="stylesheet" href="css/revolution.css">
+        <link rel="stylesheet" href="css/revolution-extralayers.css">
+
+        <link rel="stylesheet" href="css/main.css">
+
+
+        <!-- Font -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico">
 	</head>
 
 	<body>
-        <p>Site da Lilian</p>
+        <!-- PRELOADING -->
+        <div id="preload">
+        	<div class="preload">
+            	<div class="spinner"></div>
+            </div>
+        </div>
+
+        <!-- NAVIGATION -->
+		<nav id="nav-primary" class="navbar navbar-custom" role="navigation">
+          <div class="container">
+
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="nav">
+              <ul class="nav navbar-nav navbar-right uppercase">
+                <li><a data-toggle="elementscroll" href="#gallery">Portfolio</a></li>
+                <li><a data-toggle="elementscroll" href="#testimonial">Depoimentos</a></li>
+                <li><a data-toggle="elementscroll" href="#download">Download</a></li>
+                <li><a data-toggle="elementscroll" href="#footer">Contato</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+
+        <!-- FULLSCREEN SLIDER -->
+        <div class="tp-banner-container">
+            <div class="tp-banner">
+				<ul>
+                	<!-- SLIDE 1 -->
+                    <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000" data-thumb="img/slide_thumb_1.jpg"  data-saveperformance="off"  data-title="Slide">
+                        <!-- MAIN IMAGE -->
+                        <img src="img/slide1.jpg"  alt="fullslide1"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption light_heavy_70_shadowed lfb ltt tp-resizeme"
+                            data-x="center" data-hoffset="250"
+                            data-y="center" data-voffset="-70"
+                            data-speed="600"
+                            data-start="800"
+                            data-easing="Power4.easeOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0.01"
+                            data-endelementdelay="0.1"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">Eventr Conference
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme"
+                            data-x="center" data-hoffset="205"
+                            data-y="center" data-voffset="-10"
+                            data-speed="600"
+                            data-start="900"
+                            data-easing="Power4.easeOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0.01"
+                            data-endelementdelay="0.1"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">December 18-21, 2015 in NewYork.
+                        </div>
+
+
+                    </li>
+
+        			<!-- SLIDE 2 -->
+                    <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000" data-thumb="img/slide_thumb_2.jpg"  data-saveperformance="off"  data-title="Slide">
+                        <!-- MAIN IMAGE -->
+                        <img src="img/slide2.jpg"  alt="fullslide2"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption light_heavy_70_shadowed lfb ltt tp-resizeme"
+                            data-x="center" data-hoffset="270"
+                            data-y="center" data-voffset="-70"
+                            data-speed="600"
+                            data-start="800"
+                            data-easing="Power4.easeOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0.01"
+                            data-endelementdelay="0.1"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">MAURIS LECTUS
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme"
+                            data-x="center" data-hoffset="230"
+                            data-y="center" data-voffset="0"
+                            data-speed="600"
+                            data-start="900"
+                            data-easing="Power4.easeOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0.01"
+                            data-endelementdelay="0.1"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">You only live once, but if<br/>you do it right, once is enough.
+                        </div>
+
+
+                    </li>
+
+        			<!-- SLIDE 3 -->
+                    <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000" data-thumb="img/slide_thumb_3.jpg"  data-saveperformance="off"  data-title="Slide">
+                        <!-- MAIN IMAGE -->
+                        <img src="img/slide3.jpg"  alt="fullslide6"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption light_heavy_70_shadowed lfb ltt tp-resizeme"
+                            data-x="center" data-hoffset="215"
+                            data-y="center" data-voffset="-70"
+                            data-speed="600"
+                            data-start="800"
+                            data-easing="Power4.easeOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0.01"
+                            data-endelementdelay="0.1"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">SKY HIGH
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme"
+                            data-x="center" data-hoffset="290"
+                            data-y="center" data-voffset="40"
+                            data-speed="600"
+                            data-start="900"
+                            data-easing="Power4.easeOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0.01"
+                            data-endelementdelay="0.1"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Imperfection is beauty, madness<br/> is genius and it's better to be<br/> absolutely ridiculous than<br/> absolutely boring.
+                        </div>
+
+
+                    </li>
+
+        			<!-- SLIDE 4 -->
+                    <li data-transition="slidevertical" data-slotamount="1" data-masterspeed="1000" data-thumb="img/slide_thumb_4.jpg"  data-saveperformance="off"  data-title="Slide">
+                        <!-- MAIN IMAGE -->
+                        <img src="img/slide4.jpg"  alt="fullslide7"  data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption light_heavy_70_shadowed lfb ltt tp-resizeme"
+                            data-x="center" data-hoffset="270"
+                            data-y="center" data-voffset="-70"
+                            data-speed="600"
+                            data-start="800"
+                            data-easing="Power4.easeOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0.01"
+                            data-endelementdelay="0.1"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">NULLA COMMODO
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption light_medium_30_shadowed lfb ltt tp-resizeme"
+                            data-x="center" data-hoffset="220"
+                            data-y="center" data-voffset="0"
+                            data-speed="600"
+                            data-start="900"
+                            data-easing="Power4.easeOut"
+                            data-splitin="none"
+                            data-splitout="none"
+                            data-elementdelay="0.01"
+                            data-endelementdelay="0.1"
+                            data-endspeed="500"
+                            data-endeasing="Power4.easeIn"
+                            style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">As long as there was coffee in the<br/> world, how bad could things be?
+                        </div>
+
+                    </li>
+
+    			</ul>
+                <div class="tp-bannertimer"></div>
+            </div>
+		</div>
+
+        <!-- GALLERY -->
+        <section id="gallery">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <h2 class="uppercase">gallery</h2>
+                        <p class="lead">Nam pellentesque fringilla faucibus. Aliquam tortor ex, egestas porta eget, pretium at lorem.</p>
+
+                        <div id="timeline" data-columns>
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb1.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb2.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb3.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb4.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb5.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb6.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb7.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb8.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb9.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb10.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb11.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb12.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb13.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="item wrap">
+                                <img class="img-responsive" src="img/thumb14.png" alt="">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <a class="image-popup" href="img/gallery-img.jpg" title="<h4>Sed at rutrum felis</h4>Curabitur nec metus tempor, malesuada quam a, laoreet urna."><i class="pe-3x pe-7s-plus"></i></a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIAL -->
+        <section id="testimonial">
+            <div class="container-fluid">
+                <div class="row">
+
+                    <div class="col-lg-6 col-lg-offset-6 col-md-6 col-md-offset-6 no-padding">
+                        <div class="testimonial-inner">
+                            <h2 class="hidden">testimonial</h2>
+
+                            <div id="testimonial-carousel">
+                                <div class="item">
+                                    <img class="img-circle" src="img/testimonial1.png" alt="">
+                                    <p class="lead">Nulla euismod sit amet ligula in vehicula. Vestibulum cursus ex non ante dignissim ultricies.Sed egestas hendrerit neque tincidunt mattis. Duis euismod porta tempus.</p>
+                                    <p class="name">Todd Stone</p>
+                                </div>
+
+                                <div class="item">
+                                    <img class="img-circle" src="img/testimonial2.png" alt="">
+                                    <p class="lead">Nulla euismod sit amet ligula in vehicula. Vestibulum cursus ex non ante dignissim ultricies. Sed egestas hendrerit neque tincidunt mattis. Duis euismod porta tempus.</p>
+                                    <p class="name">Minnie Pierce</p>
+                                </div>
+
+                                <div class="item">
+                                    <img class="img-circle" src="img/testimonial3.png" alt="">
+                                    <p class="lead">Nulla euismod sit amet ligula in vehicula. Vestibulum cursus ex non ante dignissim ultricies. Sed egestas hendrerit neque tincidunt mattis. Duis euismod porta tempus.</p>
+                                    <p class="name">Lena Kim</p>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- DOWNLOAD -->
+        <section id="download">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="row">
+
+                            <div class="col-lg-4 col-md-4 col-sm-3">
+                                <img class="img-responsive" src="img/download.png" alt="">
+                            </div>
+
+                            <div class="col-lg-8 col-md-8 col-sm-9">
+                                <h3>Quisque mollis est justo<br>nec pretium elit vulputate sit amet.</h3>
+                                <p>In at velit eu est vehicula posuere. Sed sagittis, urna nec pellentesque molestie, est nisi laoreet metus. Nam ac turpis ut orci eleifend suscipit eu in odio. Morbi volutpat mattis urna, et fringilla eros ultrices eu.</p>
+
+                                <a class="button button-small button-line-dark" href="#">download pdf</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- google map -->
+		<div id="gmap_canvas"></div>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+        	<div class="container">
+            	<div class="row">
+
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    	<h4 class="uppercase">eventr'15</h4>
+                        <p class="small">Vestibulum in ultrices justo. Praesent placerat justo metus, vitae malesuada lacus eleifend vel. Vivamus viverra volutpat leo, a gravida dolor posuere congue.</p>
+                        <ul class="list-unstyled list-inline uppercase">
+                            <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-lg fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                    	<h4 class="uppercase">FAQ</h4>
+                        <!--<p class="small">Etiam nec porta risus. Aliquam id odio orci. Duis accumsan feugiat feugiat.</p>-->
+
+                        <dl class="faqs">
+                        	<dt>Is this the first question?</dt>
+                        	<dd class="small">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</dd>
+
+                        	<dt>Mauris ac metus in justo rhoncus?</dt>
+                        	<dd class="small">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</dd>
+
+                        	<dt>Praesent eleifend lacinia?</dt>
+                        	<dd class="small">Nam eget dui. Etiam rhoncus. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo.</dd>
+
+                            <dt> Cras id metus vitae?</dt>
+                        	<dd class="small">Vivamus dignissim urna id condimentum lacinia. Fusce tristique ultrices est, at semper turpis ullamcorper eu.</dd>
+                        </dl>
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h4 class="uppercase">newsletter</h4>
+
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <input type="email" id="newsletter_email">
+                            </div>
+                            <div class="col-lg-4">
+                                <button class="button button-big button-line-light" onclick="newsletter_send();">subscribe</button>
+                            </div>
+                        </div>
+
+                        <p class="small">Pellentesque laoreet leo ut suscipit feugiat. Sed ultricies convallis nunc quis malesuada.</p>
+
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- SUBFOOTER -->
+        <div class="subfooter">
+        	<div class="container">
+                <div class="row">
+
+                    <div class="col-lg-12">
+                        <ul class="list-unstyled list-inline pull-right uppercase">
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Press Kit</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    	<script src="js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <script src="js/jquery.themepunch.tools.min.js"></script>
+        <script src="js/jquery.themepunch.revolution.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/salvattore.js"></script>
+        <script src="js/jquery.countdown.js"></script>
+        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/retina.js"></script>
+
+        <script src="js/main.js"></script>
+
+
+        <!-- GOOGLE ANALYTICS -->
+        <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-XXXXXXX-XX', 'yourdomain.com');
+		  ga('send', 'pageview');
+
+		</script>
+
 	</body>
 </html>
