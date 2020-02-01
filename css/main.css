@@ -110,18 +110,18 @@ a {
 }
 
 .navbar-custom .navbar-nav > li > a:hover {
-	color:#800000;
+	color:#802b2b;
 	background:transparent;
 }
 
 .navbar-custom .navbar-nav > li > a:active,
 .navbar-custom .navbar-nav > li > a:focus {
-	color:#800000;
+	color:#802b2b;
 	background:transparent;
 }
 
 .navbar-custom .icon-bar {
-	background:#800000;
+	background:#e6e6e6;
 }
 
 .sticky-wrapper {
