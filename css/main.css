@@ -1079,7 +1079,7 @@ textarea {
 /* PRELOAD */
 
 #preload {
-	background:#941400;
+	background:#850000;
 	position: fixed;
 	top:0;
 	left:0;
@@ -1127,7 +1127,7 @@ textarea {
 /* OWL CAROUSEL */
 
 .owl-theme .owl-controls .owl-buttons div {
-	color: #fac42b;
+	color: #850000;
 	margin:0;
 	padding: 1px;
 	font-size: 12px;
