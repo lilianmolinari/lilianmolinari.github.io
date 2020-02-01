@@ -84,7 +84,7 @@ a {
 }
 
 .owl-theme .owl-controls .owl-page span {
-	background:#fac42b;
+	background:#800000;
 }
 
 
@@ -110,18 +110,18 @@ a {
 }
 
 .navbar-custom .navbar-nav > li > a:hover {
-	color:#fac42b;
+	color:#800000;
 	background:transparent;
 }
 
 .navbar-custom .navbar-nav > li > a:active,
 .navbar-custom .navbar-nav > li > a:focus {
-	color:#fac42b;
+	color:#800000;
 	background:transparent;
 }
 
 .navbar-custom .icon-bar {
-	background:#fac42b;
+	background:#800000;
 }
 
 .sticky-wrapper {
@@ -197,7 +197,7 @@ a {
 }
 
 #highlight #right {
-	background:#fac42b;
+	background:#800000;
 	min-height:100px;
 }
 
@@ -230,7 +230,7 @@ a {
 }
 
 #info i {
-	color:#fac42b;
+	color:#800000;
 	margin-bottom:10px;
 }
 
@@ -295,7 +295,7 @@ a {
   	width: 40px;
   	height: 2px;
 	margin:0 auto;
- 	background-color: #fac42b;
+ 	background-color: #800000;
  	margin-top: 10px;
   	margin-bottom: 5px;
 }
@@ -403,7 +403,7 @@ a {
 
 #program {
 	color:#ffffff;
-	background:#fac42b;
+	background:#800000;
 	padding:70px 0 90px 0;
 }
 
@@ -558,7 +558,7 @@ a {
   	display: block;
   	width: 120px;
   	height: 3px;
- 	background-color: #fac42b;
+ 	background-color: #800000;
  	margin-top: 12px;
   	margin-bottom: 15px;
 }
@@ -602,7 +602,7 @@ a {
   	display: block;
   	width: 60px;
   	height: 3px;
- 	background-color: #fac42b;
+ 	background-color: #800000;
  	margin-top: 12px;
   	margin-bottom: 15px;
 }
@@ -616,7 +616,7 @@ a {
   	display: block;
   	width: 60px;
   	height: 3px;
- 	background-color: #fac42b;
+ 	background-color: #800000;
  	margin-top: 12px;
   	margin-bottom: 15px;
 }
@@ -626,7 +626,7 @@ a {
 }
 
 #venue i {
-	color:#fac42b;
+	color:#800000;
 }
 
 .venue-inner .lead {
@@ -735,7 +735,7 @@ a {
 
 .price-table {
 	color:#ffffff;
-	background:#fac42b;
+	background:#800000;
 	padding:20px;
 	line-height:1;
 	font-weight:300;
@@ -744,15 +744,15 @@ a {
 }
 
 .early-bird {
-	background:#fac42b;
+	background:#800000;
 }
 
 .standart {
-	background:#fcba00;
+	background:#700000;
 }
 
 .vip {
-	background:#f0b202;
+	background:#610000;
 }
 
 .price-table .icon {
@@ -827,7 +827,7 @@ a {
 /* TESTIMONIAL */
 
 #testimonial {
-	background:#fac42b;
+	background:#800000;
 	background-image: url(../img/bg-testimonial.png);
 	background-repeat: no-repeat;
 	background-attachment:fixed;
@@ -890,7 +890,7 @@ a {
 } 
 
 #sponsors i {
-	color:#fac42b;
+	color:#800000;
 }
 
 
@@ -926,7 +926,7 @@ footer h4:after {
   	display: block;
   	width: 60px;
   	height: 3px;
- 	background-color: #fac42b;
+ 	background-color: #800000;
  	margin-top: 12px;
   	margin-bottom: 15px;
 }
@@ -1079,7 +1079,7 @@ textarea {
 /* PRELOAD */
 
 #preload {
-	background:#850000;
+	background:#800000;
 	position: fixed;
 	top:0;
 	left:0;
@@ -1327,7 +1327,7 @@ figure.effect-ming:hover span img {
 }
 
 figure.effect-ming:hover figcaption {
-	background-color: rgba(58,52,42,0);
+	background-color: rgba(52,52,52,0);
 }
 
 figure.effect-ming:hover img {
